@@ -1,0 +1,9 @@
+[
+  { "id": "artists", "title": "Artists" },
+  { "id": "events", "title": "Events" },
+  { "id": "gallery", "title": "Gallery" },
+  { "id": "beats", "title": "Beats" },
+  { "id": "press", "title": "Press" },
+  { "id": "services", "title": "Services" },
+  { "id": "contact", "title": "Contact" }
+]
