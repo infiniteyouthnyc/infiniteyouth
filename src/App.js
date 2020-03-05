@@ -12,7 +12,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <IYNavbar selectedSection="home" sections={navbarItems} />
+        <IYNavbar
+          selectedSection="home"
+          sections={navbarItems}
+          singlePage={false}
+        />
         <Routes />
       </Router>
     </div>
