@@ -6,8 +6,8 @@ function IYHome(props) {
   return (
     <Container style={{ padding: "75px 0px" }}>
       <Row>
-        <Col xs={3}></Col>
-        <Col xs={6}>
+        <Col md={3} xs={1}></Col>
+        <Col md={6} xs={10}>
           <Carousel fade={true}>
             {props.artists.map(artist => {
               return (
@@ -23,7 +23,7 @@ function IYHome(props) {
             })}
           </Carousel>
         </Col>
-        <Col xs={3}></Col>
+        <Col md={3} xs={1}></Col>
       </Row>
     </Container>
   );

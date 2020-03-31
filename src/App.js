@@ -16,7 +16,7 @@ function App() {
           selectedSection="home"
           sections={navbarItems}
           singlePage={false}
-          stickToTop={false}
+          stickToTop={true}
         />
         <br />
         <Routes />
