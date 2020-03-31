@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/infiniteyouth/static/css/main.d3f09458.chunk.css",
-    "main.js": "/infiniteyouth/static/js/main.ebc4d7ca.chunk.js",
-    "main.js.map": "/infiniteyouth/static/js/main.ebc4d7ca.chunk.js.map",
+    "main.css": "/infiniteyouth/static/css/main.b5c22b23.chunk.css",
+    "main.js": "/infiniteyouth/static/js/main.6eb6c3aa.chunk.js",
+    "main.js.map": "/infiniteyouth/static/js/main.6eb6c3aa.chunk.js.map",
     "runtime-main.js": "/infiniteyouth/static/js/runtime-main.06708c67.js",
     "runtime-main.js.map": "/infiniteyouth/static/js/runtime-main.06708c67.js.map",
-    "static/js/2.c5fdd6fa.chunk.js": "/infiniteyouth/static/js/2.c5fdd6fa.chunk.js",
-    "static/js/2.c5fdd6fa.chunk.js.map": "/infiniteyouth/static/js/2.c5fdd6fa.chunk.js.map",
+    "static/js/2.b9ba6605.chunk.js": "/infiniteyouth/static/js/2.b9ba6605.chunk.js",
+    "static/js/2.b9ba6605.chunk.js.map": "/infiniteyouth/static/js/2.b9ba6605.chunk.js.map",
     "index.html": "/infiniteyouth/index.html",
-    "precache-manifest.fc181b99302722b3a63058722e2332fc.js": "/infiniteyouth/precache-manifest.fc181b99302722b3a63058722e2332fc.js",
+    "precache-manifest.5b6c7de2d64954c18a127fec8526a857.js": "/infiniteyouth/precache-manifest.5b6c7de2d64954c18a127fec8526a857.js",
     "service-worker.js": "/infiniteyouth/service-worker.js",
-    "static/css/main.d3f09458.chunk.css.map": "/infiniteyouth/static/css/main.d3f09458.chunk.css.map",
-    "static/js/2.c5fdd6fa.chunk.js.LICENSE.txt": "/infiniteyouth/static/js/2.c5fdd6fa.chunk.js.LICENSE.txt",
+    "static/css/main.b5c22b23.chunk.css.map": "/infiniteyouth/static/css/main.b5c22b23.chunk.css.map",
+    "static/js/2.b9ba6605.chunk.js.LICENSE.txt": "/infiniteyouth/static/js/2.b9ba6605.chunk.js.LICENSE.txt",
+    "static/media/barryHunter.png": "/infiniteyouth/static/media/barryHunter.fc961db2.png",
+    "static/media/dee9.png": "/infiniteyouth/static/media/dee9.335ed036.png",
+    "static/media/frankieaura.png": "/infiniteyouth/static/media/frankieaura.43cffac7.png",
+    "static/media/jackhouse.png": "/infiniteyouth/static/media/jackhouse.578a1fc3.png",
+    "static/media/joeypsycho.png": "/infiniteyouth/static/media/joeypsycho.f86dadc1.png",
+    "static/media/johnny+will.png": "/infiniteyouth/static/media/johnny+will.f392b043.png",
     "static/media/logo.svg": "/infiniteyouth/static/media/logo.5d5d9eef.svg",
-    "static/media/logo.png": "/infiniteyouth/static/media/logo.9c13179d.png"
+    "static/media/logo.png": "/infiniteyouth/static/media/logo.9c13179d.png",
+    "static/media/prettiBoiLF.png": "/infiniteyouth/static/media/prettiBoiLF.faf2189f.png",
+    "static/media/puddah.png": "/infiniteyouth/static/media/puddah.445a71ad.png"
   },
   "entrypoints": [
     "static/js/runtime-main.06708c67.js",
-    "static/js/2.c5fdd6fa.chunk.js",
-    "static/css/main.d3f09458.chunk.css",
-    "static/js/main.ebc4d7ca.chunk.js"
+    "static/js/2.b9ba6605.chunk.js",
+    "static/css/main.b5c22b23.chunk.css",
+    "static/js/main.6eb6c3aa.chunk.js"
   ]
 }
