@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import IYHeader from "./IYHeader.jsx";
+import IYHome from "./IYHome.jsx";
 import IYArtists from "./IYArtists.jsx";
 import IYEvents from "./IYEvents.jsx";
 import IYGallery from "./IYGallery.jsx";
@@ -12,7 +13,7 @@ import IYContact from "./IYContact.jsx";
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={IYHeader} />
+      <Route path="/" exact component={IYHome} />
       <Route path="/artists" exact component={IYArtists} />
       <Route path="/events" exact component={IYEvents} />
       <Route path="/gallery" exact component={IYGallery} />

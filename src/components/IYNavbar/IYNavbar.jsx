@@ -58,10 +58,12 @@ function IYNavbar(props) {
     }
   });
 
+  const fixed = props.stickToTop ? "top" : "";
+
   return (
     <Navbar
       expand="md"
-      fixed="top"
+      fixed={fixed}
       style={{
         backgroundColor: backgroundColor,
         fontFamily: "AUDIOWIDE",
@@ -127,7 +129,9 @@ IYNavbar.propTypes = {
    * Otherwise, clicking on a navigation item reroutes to the page for that
    * section.
    */
-  singlePage: PropTypes.bool
+  singlePage: PropTypes.bool,
+  /** Whether the Navbar is sticky or not. */
+  stickToTop: PropTypes.bool
 };
 
 export default IYNavbar;
