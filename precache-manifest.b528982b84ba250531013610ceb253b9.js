@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19343f152d1e0cf9d99523d62d995e38",
+    "revision": "86d05c57724421aff469823c0bb3e6c8",
     "url": "/infiniteyouth/index.html"
   },
   {
-    "revision": "b95ce7c702e045db75c4",
+    "revision": "4db7730bbaf3339feabc",
     "url": "/infiniteyouth/static/css/main.b5c22b23.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infiniteyouth/static/js/2.b9ba6605.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b95ce7c702e045db75c4",
-    "url": "/infiniteyouth/static/js/main.6eb6c3aa.chunk.js"
+    "revision": "4db7730bbaf3339feabc",
+    "url": "/infiniteyouth/static/js/main.2bea6685.chunk.js"
   },
   {
     "revision": "5f9a1f650a501dd5c265",
