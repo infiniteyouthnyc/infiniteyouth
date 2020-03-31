@@ -9,13 +9,15 @@ function IYHome(props) {
         <Col xs={3}></Col>
         <Col xs={6}>
           <Carousel fade={true}>
-            {props.artistPhotoPaths.map(path => {
+            {props.artists.map(artist => {
               return (
                 <Carousel.Item>
-                  <img
-                    src={require(`./photos/${path}`)}
-                    style={{ width: "100%" }}
-                  />
+                  <a target="_blank" href={artist.link}>
+                    <img
+                      src={require(`./photos/${artist.path}`)}
+                      style={{ width: "100%" }}
+                    />
+                  </a>
                 </Carousel.Item>
               );
             })}
@@ -28,8 +30,14 @@ function IYHome(props) {
 }
 
 IYHome.propTypes = {
-  /** The names of the artist images featured on the home page */
-  artistPhotoPaths: PropTypes.arrayOf(PropTypes.string)
+  artists: PropTypes.arrayOf(
+    PropTypes.shape({
+      /** The path to the artist images featured on the home page */
+      path: PropTypes.string,
+      /** The social media link for that artist */
+      link: PropTypes.string
+    })
+  )
 };
 
 export default IYHome;

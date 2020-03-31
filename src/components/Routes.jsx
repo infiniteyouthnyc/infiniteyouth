@@ -10,15 +10,12 @@ import IYPress from "./IYPress.jsx";
 import IYServices from "./IYServices.jsx";
 import IYContact from "./IYContact.jsx";
 
-import IYHomePhotoPaths from "./IYHome/IYHomePhotoPaths.json";
+import artists from "./IYHome/IYArtists.json";
 
 export default function Routes() {
   return (
     <Switch>
-      <Route
-        path="/"
-        render={props => <IYHome artistPhotoPaths={IYHomePhotoPaths} />}
-      />
+      <Route path="/" exact render={props => <IYHome artists={artists} />} />
       <Route path="/artists" exact component={IYArtists} />
       <Route path="/events" exact component={IYEvents} />
       <Route path="/gallery" exact component={IYGallery} />
