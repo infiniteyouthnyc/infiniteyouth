@@ -14,7 +14,7 @@ import artists from "./IYHome/IYArtists.json";
 
 export default function Routes() {
   return (
-    <Switch>
+    <Switch style={{ paddingTop: 120 }}>
       <Route path="/" exact render={props => <IYHome artists={artists} />} />
       <Route path="/artists" exact component={IYArtists} />
       <Route path="/events" exact component={IYEvents} />

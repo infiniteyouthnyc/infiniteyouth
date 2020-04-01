@@ -1,5 +1,13 @@
-$body-bg: #000;
+$body-bg: #fff;
 $body-color: #111;
+
+html body {
+  font-family: "Audiowide";
+}
+
+a:link {
+  color: #555;
+}
 
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");

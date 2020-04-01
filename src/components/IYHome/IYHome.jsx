@@ -4,7 +4,7 @@ import { Carousel, Container, Row, Col } from "react-bootstrap";
 
 function IYHome(props) {
   return (
-    <Container style={{ padding: "75px 0px" }}>
+    <Container style={{ padding: "120px 0px" }}>
       <Row>
         <Col md={3} xs={1}></Col>
         <Col md={6} xs={10}>

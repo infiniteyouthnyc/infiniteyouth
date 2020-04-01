@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import Routes from "./components/Routes.jsx";
 import IYNavbar from "./components/IYNavbar/IYNavbar.jsx";
+import IYFooter from "./components/IYFooter/IYFooter.jsx";
 
 import navbarItems from "./components/IYNavbar/IYNavbarItems.json";
 
@@ -18,8 +19,8 @@ function App() {
           singlePage={false}
           stickToTop={true}
         />
-        <br />
         <Routes />
+        <IYFooter />
       </Router>
     </div>
   );
