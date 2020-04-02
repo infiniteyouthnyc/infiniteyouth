@@ -10,15 +10,23 @@ function IYHome(props) {
         <Col md={6} xs={10}>
           <Carousel fade={true}>
             {props.artists.map(artist => {
+              const artistImage = (
+                <img
+                  src={require(`./photos/${artist.path}`)}
+                  style={{ width: "100%" }}
+                  alt=""
+                />
+              );
               return (
                 <Carousel.Item>
-                  <a target="_blank" href={artist.link}>
-                    <img
-                      src={require(`./photos/${artist.path}`)}
-                      style={{ width: "100%" }}
-                      alt=""
-                    />
-                  </a>
+                  {artist.link ? (
+                    <a target="_blank" href={artist.link}>
+                      {artistImage}
+                    </a>
+                  ) : (
+                    artistImage
+                  )}
+                  }
                 </Carousel.Item>
               );
             })}

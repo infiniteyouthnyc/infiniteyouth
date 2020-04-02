@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import IYHeader from "./IYHeader.jsx";
 import IYHome from "./IYHome/IYHome.jsx";
 import IYArtists from "./IYArtists.jsx";
-import IYEvents from "./IYEvents.jsx";
+import IYEvents from "./IYEvents/IYEvents.jsx";
 import IYGallery from "./IYGallery.jsx";
 import IYBeats from "./IYBeats.jsx";
 import IYPress from "./IYPress/IYPress.jsx";
@@ -12,6 +12,7 @@ import IYContact from "./IYContact.jsx";
 
 import artists from "./IYHome/IYArtists.json";
 import press from "./IYPress/IYPress.json";
+import events from "./IYEvents/IYEvents.json";
 
 export default function Routes() {
   // TODO: Remove `/infiniteyouth` from paths before final deployment
@@ -23,7 +24,11 @@ export default function Routes() {
         render={props => <IYHome artists={artists} />}
       />
       <Route path="/infiniteyouth/artists" exact component={IYArtists} />
-      <Route path="/infiniteyouth/events" exact component={IYEvents} />
+      <Route
+        path="/infiniteyouth/events"
+        exact
+        render={props => <IYEvents events={events} />}
+      />
       <Route path="/infiniteyouth/gallery" exact component={IYGallery} />
       <Route path="/infiniteyouth/beats" exact component={IYBeats} />
       <Route
