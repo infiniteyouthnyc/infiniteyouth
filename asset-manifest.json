@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/infiniteyouth/static/css/main.cc69acb7.chunk.css",
-    "main.js": "/infiniteyouth/static/js/main.0cbb43b8.chunk.js",
-    "main.js.map": "/infiniteyouth/static/js/main.0cbb43b8.chunk.js.map",
+    "main.js": "/infiniteyouth/static/js/main.cbcfc9e2.chunk.js",
+    "main.js.map": "/infiniteyouth/static/js/main.cbcfc9e2.chunk.js.map",
     "runtime-main.js": "/infiniteyouth/static/js/runtime-main.06708c67.js",
     "runtime-main.js.map": "/infiniteyouth/static/js/runtime-main.06708c67.js.map",
     "static/js/2.b46d1fb3.chunk.js": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js",
     "static/js/2.b46d1fb3.chunk.js.map": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.map",
     "index.html": "/infiniteyouth/index.html",
-    "precache-manifest.09a2e8b8792b2227539879964debaed1.js": "/infiniteyouth/precache-manifest.09a2e8b8792b2227539879964debaed1.js",
+    "precache-manifest.a26d8a8ae247fdaaedd3b1e21b111258.js": "/infiniteyouth/precache-manifest.a26d8a8ae247fdaaedd3b1e21b111258.js",
     "service-worker.js": "/infiniteyouth/service-worker.js",
     "static/css/main.cc69acb7.chunk.css.map": "/infiniteyouth/static/css/main.cc69acb7.chunk.css.map",
     "static/js/2.b46d1fb3.chunk.js.LICENSE.txt": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.LICENSE.txt",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.06708c67.js",
     "static/js/2.b46d1fb3.chunk.js",
     "static/css/main.cc69acb7.chunk.css",
-    "static/js/main.0cbb43b8.chunk.js"
+    "static/js/main.cbcfc9e2.chunk.js"
   ]
 }
