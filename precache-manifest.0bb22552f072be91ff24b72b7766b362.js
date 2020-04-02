@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05e4f0f10733c86491e0f8558a4d8171",
+    "revision": "93c165afe4b47a27fe849ac21a677a38",
     "url": "/infiniteyouth/index.html"
   },
   {
-    "revision": "dab2e77fb9136b483beb",
-    "url": "/infiniteyouth/static/css/main.b5c22b23.chunk.css"
+    "revision": "e1afbf6ed65ea6d7fdce",
+    "url": "/infiniteyouth/static/css/main.fd3e37a9.chunk.css"
   },
   {
-    "revision": "3a24497c64632312ee70",
-    "url": "/infiniteyouth/static/js/2.b9ba6605.chunk.js"
+    "revision": "e277e37d9c7cbb65d0f8",
+    "url": "/infiniteyouth/static/js/2.96ea1df9.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/infiniteyouth/static/js/2.b9ba6605.chunk.js.LICENSE.txt"
+    "url": "/infiniteyouth/static/js/2.96ea1df9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dab2e77fb9136b483beb",
-    "url": "/infiniteyouth/static/js/main.02aa6126.chunk.js"
+    "revision": "e1afbf6ed65ea6d7fdce",
+    "url": "/infiniteyouth/static/js/main.b3f28bad.chunk.js"
   },
   {
     "revision": "5f9a1f650a501dd5c265",
