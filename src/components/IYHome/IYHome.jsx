@@ -26,7 +26,6 @@ function IYHome(props) {
                   ) : (
                     artistImage
                   )}
-                  }
                 </Carousel.Item>
               );
             })}

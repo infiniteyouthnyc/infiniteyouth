@@ -22,7 +22,7 @@ function IYEvents(props) {
             />
           );
           return (
-            <Col md={4} xs={6} style={{ padding: 24 }}>
+            <Col md={4} xs={12} style={{ padding: 24 }}>
               {event.link ? (
                 <a target="_blank" href={event.link}>
                   {eventImage}

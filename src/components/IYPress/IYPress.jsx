@@ -16,7 +16,7 @@ function IYPress(props) {
       >
         {props.press.map(press => {
           return (
-            <Col md={4} xs={6} style={{ padding: 24 }}>
+            <Col lg={4} md={6} xs={12} style={{ padding: 24 }}>
               <ReactTinyLink
                 cardSize="large"
                 showGraphic={true}
