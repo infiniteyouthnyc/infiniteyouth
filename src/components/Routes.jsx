@@ -6,11 +6,12 @@ import IYArtists from "./IYArtists.jsx";
 import IYEvents from "./IYEvents.jsx";
 import IYGallery from "./IYGallery.jsx";
 import IYBeats from "./IYBeats.jsx";
-import IYPress from "./IYPress.jsx";
+import IYPress from "./IYPress/IYPress.jsx";
 import IYServices from "./IYServices.jsx";
 import IYContact from "./IYContact.jsx";
 
 import artists from "./IYHome/IYArtists.json";
+import press from "./IYPress/IYPress.json";
 
 export default function Routes() {
   // TODO: Remove `/infiniteyouth` from paths before final deployment
@@ -25,7 +26,11 @@ export default function Routes() {
       <Route path="/infiniteyouth/events" exact component={IYEvents} />
       <Route path="/infiniteyouth/gallery" exact component={IYGallery} />
       <Route path="/infiniteyouth/beats" exact component={IYBeats} />
-      <Route path="/infiniteyouth/press" exact component={IYPress} />
+      <Route
+        path="/infiniteyouth/press"
+        exact
+        render={props => <IYPress press={press} />}
+      />
       <Route path="/infiniteyouth/services" exact component={IYServices} />
       <Route path="/infiniteyouth/contact" exact component={IYContact} />
     </Switch>

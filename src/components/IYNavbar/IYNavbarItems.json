@@ -1,8 +1,14 @@
 [
-  { "id": "artists", "title": "Artists", "path": "" },
-  { "id": "press", "title": "Press", "path": "/press" },
-  { "id": "events", "title": "Events", "path": "/events" },
-  { "id": "beats", "title": "Beats", "path": "/beats" },
+  { "id": "artists", "title": "Artists", "path": "", "include": true },
+  { "id": "press", "title": "Press", "path": "/press", "include": true },
+  { "id": "events", "title": "Events", "path": "/events", "include": true },
+  {
+    "id": "beats",
+    "title": "Beats",
+    "path": "/beats",
+    "external": true,
+    "include": true
+  },
   { "id": "gallery", "title": "Gallery", "path": "/gallery" },
   { "id": "services", "title": "Services", "path": "/services" },
   { "id": "contact", "title": "Contact", "path": "/contact" }

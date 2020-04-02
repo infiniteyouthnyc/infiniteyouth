@@ -16,6 +16,7 @@ function IYHome(props) {
                     <img
                       src={require(`./photos/${artist.path}`)}
                       style={{ width: "100%" }}
+                      alt=""
                     />
                   </a>
                 </Carousel.Item>

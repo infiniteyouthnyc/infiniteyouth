@@ -85,29 +85,50 @@ function IYNavbar(props) {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <Nav activeKey={`#${props.selectedSection}`}>
-          {props.sections.map(section => {
-            return (
-              // TODO: Remove `/infiniteyouth` from paths before final deployment.
-              // TODO: In IYNavbarItems make sure to create separate Artists page.
-              <NavLink
-                className="iyNavLink"
-                exact
-                to={`/infiniteyouth${section.path}`}
-                activeStyle={{
-                  color: "#ee9017",
-                  transition: ["all", "0.3s", "easeOut"]
-                }}
-                style={{
-                  marginLeft: 12,
-                  marginRight: 12,
-                  textDecorationLine: "none",
-                  transition: ["all", "0.3s", "easeOut"]
-                }}
-              >
-                {section.title}
-              </NavLink>
-            );
-          })}
+          {props.sections
+            .filter(section => section.include)
+            .map(section => {
+              if (!section.external) {
+                return (
+                  // TODO: Remove `/infiniteyouth` from paths before final deployment.
+                  // TODO: In IYNavbarItems make sure to create separate Artists page.
+                  <NavLink
+                    className="iyNavLink"
+                    exact
+                    to={`/infiniteyouth${section.path}`}
+                    target={section.external ? "_blank" : null}
+                    activeStyle={{
+                      color: "#ee9017",
+                      transition: ["all", "0.3s", "easeOut"]
+                    }}
+                    style={{
+                      marginLeft: 12,
+                      marginRight: 12,
+                      textDecorationLine: "none",
+                      transition: ["all", "0.3s", "easeOut"]
+                    }}
+                  >
+                    {section.title}
+                  </NavLink>
+                );
+              } else {
+                return (
+                  <a
+                    className="iyNavLink"
+                    href="https://beatstars.com/infiniteyouth/feed"
+                    target="_blank"
+                    style={{
+                      marginLeft: 12,
+                      marginRight: 12,
+                      textDecorationLine: "none",
+                      transition: ["all", "0.3s", "easeOut"]
+                    }}
+                  >
+                    {section.title}
+                  </a>
+                );
+              }
+            })}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -122,7 +143,9 @@ IYNavbar.propTypes = {
     PropTypes.shape({
       id: PropTypes.string,
       title: PropTypes.string,
-      path: PropTypes.string
+      path: PropTypes.string,
+      external: PropTypes.bool,
+      include: PropTypes.bool
     })
   ),
   /** If the app is a single-page app, this is true, which
