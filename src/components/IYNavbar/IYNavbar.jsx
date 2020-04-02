@@ -87,7 +87,8 @@ function IYNavbar(props) {
         <Nav activeKey={`#${props.selectedSection}`}>
           {props.sections.map(section => {
             return (
-              // TODO: Remove `/infiniteyouth` from paths before final deployment
+              // TODO: Remove `/infiniteyouth` from paths before final deployment.
+              // TODO: In IYNavbarItems make sure to create separate Artists page.
               <NavLink
                 className="iyNavLink"
                 exact
