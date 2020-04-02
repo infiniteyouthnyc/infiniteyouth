@@ -5,8 +5,16 @@ html body {
   font-family: "Audiowide";
 }
 
-a:hover {
-  color: #444;
+.iyNavLink {
+  color: #555;
+}
+
+.iyNavLink:link {
+  color: #555;
+}
+
+.iyNavLink:hover {
+  color: rgba(238, 145, 23, 0.75);
 }
 
 .iyAnchor:link {

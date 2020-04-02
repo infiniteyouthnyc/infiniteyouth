@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 
@@ -15,8 +15,7 @@ const END_OPACITY_TRANSITION = (1 + OPACITY_WINDOW_BUFFER) * window.innerHeight;
  * A navigation bar component for navigating between sections of the app.
  */
 function IYNavbar(props) {
-  const [activeKey, setActiveKey] = useState(props.selectedSection);
-  const [hoverKey, setHoverKey] = useState("");
+  const [_, setActiveKey] = useState(props.selectedSection);
   const [backgroundColor, setBackgroundColor] = useState(
     `rgba(250, 250, 250, 0.7)`
   );
@@ -89,24 +88,22 @@ function IYNavbar(props) {
           {props.sections.map(section => {
             return (
               // TODO: Remove `/infiniteyouth` from paths before final deployment
-              <LinkContainer to={`/infiniteyouth/${section.id}`}>
-                <Nav.Link
-                  style={{
-                    marginLeft: 12,
-                    marginRight: 12,
-                    fontWeight: activeKey === section.id ? "bold" : "",
-                    textDecorationLine:
-                      hoverKey === section.id ? "underline" : "none",
-                    color: "rgba(35, 35, 45, 0.75)",
-                    transition: ["all", "3s", "easeIn", "0s"]
-                  }}
-                  onSelect={() => setActiveKey(section.id)}
-                  onMouseEnter={() => setHoverKey(section.id)}
-                  onMouseLeave={() => setHoverKey("")}
-                >
-                  {section.title}
-                </Nav.Link>
-              </LinkContainer>
+              <NavLink
+                className="iyNavLink"
+                to={`/infiniteyouth/${section.id}`}
+                activeStyle={{
+                  color: "rgba(238, 144, 23, 1)",
+                  transition: ["all", "0.3s", "easeOut"]
+                }}
+                style={{
+                  marginLeft: 12,
+                  marginRight: 12,
+                  textDecorationLine: "none",
+                  transition: ["all", "0.3s", "easeOut"]
+                }}
+              >
+                {section.title}
+              </NavLink>
             );
           })}
         </Nav>
