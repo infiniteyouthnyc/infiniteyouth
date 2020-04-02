@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eec4c0caa9221a5121cd499965ac9a4e",
+    "revision": "177ec8ae1cea5df6234dac0df92771b4",
     "url": "/infiniteyouth/index.html"
   },
   {
-    "revision": "1eb9874992dc7a99c669",
-    "url": "/infiniteyouth/static/css/main.fd3e37a9.chunk.css"
+    "revision": "65d0a48ad4e5a248623e",
+    "url": "/infiniteyouth/static/css/main.cc69acb7.chunk.css"
   },
   {
-    "revision": "e277e37d9c7cbb65d0f8",
-    "url": "/infiniteyouth/static/js/2.96ea1df9.chunk.js"
+    "revision": "16e61f26328dbae7e0b2",
+    "url": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js"
   },
   {
-    "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/infiniteyouth/static/js/2.96ea1df9.chunk.js.LICENSE.txt"
+    "revision": "bd186748a279a7c3df1fe1fc35da9637",
+    "url": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1eb9874992dc7a99c669",
-    "url": "/infiniteyouth/static/js/main.84eb5d38.chunk.js"
+    "revision": "65d0a48ad4e5a248623e",
+    "url": "/infiniteyouth/static/js/main.0cbb43b8.chunk.js"
   },
   {
     "revision": "5f9a1f650a501dd5c265",
@@ -30,6 +30,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "335ed0364eb39c8b3eda9d8e78f582ea",
     "url": "/infiniteyouth/static/media/dee9.335ed036.png"
+  },
+  {
+    "revision": "f5dd8f8421d77b8b5be5a26448676e6a",
+    "url": "/infiniteyouth/static/media/event1.f5dd8f84.png"
+  },
+  {
+    "revision": "51d611115398b2c864b331f66f09b2f2",
+    "url": "/infiniteyouth/static/media/event2.51d61111.png"
+  },
+  {
+    "revision": "42ea01d95a69df52063eabfd1b1599f9",
+    "url": "/infiniteyouth/static/media/event3.42ea01d9.png"
+  },
+  {
+    "revision": "c77a187394b191a68538b6a8fcc2476c",
+    "url": "/infiniteyouth/static/media/event4.c77a1873.png"
+  },
+  {
+    "revision": "1bc3ec8ea436450e13571c3159c80700",
+    "url": "/infiniteyouth/static/media/event5.1bc3ec8e.png"
+  },
+  {
+    "revision": "57ea94003256b49b0fd376296a5e54f5",
+    "url": "/infiniteyouth/static/media/event6.57ea9400.png"
+  },
+  {
+    "revision": "76400fca61f65e42ad7705af0cef3c82",
+    "url": "/infiniteyouth/static/media/event7.76400fca.png"
+  },
+  {
+    "revision": "5f6f83a2fadc00cc03adf65895396e28",
+    "url": "/infiniteyouth/static/media/event8.5f6f83a2.png"
   },
   {
     "revision": "43cffac7f83504c1d17e26ca0b1e77eb",

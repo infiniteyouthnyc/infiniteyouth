@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/infiniteyouth/static/css/main.fd3e37a9.chunk.css",
-    "main.js": "/infiniteyouth/static/js/main.84eb5d38.chunk.js",
-    "main.js.map": "/infiniteyouth/static/js/main.84eb5d38.chunk.js.map",
+    "main.css": "/infiniteyouth/static/css/main.cc69acb7.chunk.css",
+    "main.js": "/infiniteyouth/static/js/main.0cbb43b8.chunk.js",
+    "main.js.map": "/infiniteyouth/static/js/main.0cbb43b8.chunk.js.map",
     "runtime-main.js": "/infiniteyouth/static/js/runtime-main.06708c67.js",
     "runtime-main.js.map": "/infiniteyouth/static/js/runtime-main.06708c67.js.map",
-    "static/js/2.96ea1df9.chunk.js": "/infiniteyouth/static/js/2.96ea1df9.chunk.js",
-    "static/js/2.96ea1df9.chunk.js.map": "/infiniteyouth/static/js/2.96ea1df9.chunk.js.map",
+    "static/js/2.b46d1fb3.chunk.js": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js",
+    "static/js/2.b46d1fb3.chunk.js.map": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.map",
     "index.html": "/infiniteyouth/index.html",
-    "precache-manifest.af65de69ef8c04f510d28a9bef58ba5b.js": "/infiniteyouth/precache-manifest.af65de69ef8c04f510d28a9bef58ba5b.js",
+    "precache-manifest.09a2e8b8792b2227539879964debaed1.js": "/infiniteyouth/precache-manifest.09a2e8b8792b2227539879964debaed1.js",
     "service-worker.js": "/infiniteyouth/service-worker.js",
-    "static/css/main.fd3e37a9.chunk.css.map": "/infiniteyouth/static/css/main.fd3e37a9.chunk.css.map",
-    "static/js/2.96ea1df9.chunk.js.LICENSE.txt": "/infiniteyouth/static/js/2.96ea1df9.chunk.js.LICENSE.txt",
+    "static/css/main.cc69acb7.chunk.css.map": "/infiniteyouth/static/css/main.cc69acb7.chunk.css.map",
+    "static/js/2.b46d1fb3.chunk.js.LICENSE.txt": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.LICENSE.txt",
     "static/media/barryHunter.png": "/infiniteyouth/static/media/barryHunter.fc961db2.png",
     "static/media/dee9.png": "/infiniteyouth/static/media/dee9.335ed036.png",
+    "static/media/event1.png": "/infiniteyouth/static/media/event1.f5dd8f84.png",
+    "static/media/event2.png": "/infiniteyouth/static/media/event2.51d61111.png",
+    "static/media/event3.png": "/infiniteyouth/static/media/event3.42ea01d9.png",
+    "static/media/event4.png": "/infiniteyouth/static/media/event4.c77a1873.png",
+    "static/media/event5.png": "/infiniteyouth/static/media/event5.1bc3ec8e.png",
+    "static/media/event6.png": "/infiniteyouth/static/media/event6.57ea9400.png",
+    "static/media/event7.png": "/infiniteyouth/static/media/event7.76400fca.png",
+    "static/media/event8.png": "/infiniteyouth/static/media/event8.5f6f83a2.png",
     "static/media/frankieaura.png": "/infiniteyouth/static/media/frankieaura.43cffac7.png",
     "static/media/jackhouse.png": "/infiniteyouth/static/media/jackhouse.578a1fc3.png",
     "static/media/joeypsycho.png": "/infiniteyouth/static/media/joeypsycho.f86dadc1.png",
@@ -25,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.06708c67.js",
-    "static/js/2.96ea1df9.chunk.js",
-    "static/css/main.fd3e37a9.chunk.css",
-    "static/js/main.84eb5d38.chunk.js"
+    "static/js/2.b46d1fb3.chunk.js",
+    "static/css/main.cc69acb7.chunk.css",
+    "static/js/main.0cbb43b8.chunk.js"
   ]
 }
