@@ -74,7 +74,7 @@ function IYNavbar(props) {
       }}
     >
       <Navbar.Brand href="#home">
-        <Link to="/">
+        <Link to="/infiniteyouth">
           <img
             src={require("./logo.png")}
             height="30"
@@ -88,7 +88,8 @@ function IYNavbar(props) {
         <Nav activeKey={`#${props.selectedSection}`}>
           {props.sections.map(section => {
             return (
-              <LinkContainer to={`/${section.id}`}>
+              // TODO: Remove `/infiniteyouth` from paths before final deployment
+              <LinkContainer to={`/infiniteyouth/${section.id}`}>
                 <Nav.Link
                   style={{
                     marginLeft: 12,
