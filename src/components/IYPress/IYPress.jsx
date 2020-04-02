@@ -1,21 +1,29 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
+import { ReactTinyLink } from "react-tiny-link";
 
 function IYPress(props) {
   return (
     <Container style={{ padding: "120px 0px" }}>
-      <Row md={3} xs={2}>
+      <Row
+        style={{
+          marginBottom: 24,
+          display: "flex",
+          alignItems: "center",
+          justifyItems: "center"
+        }}
+      >
         {props.press.map(press => {
           return (
-            <Col>
-              <a href={press.link} target="_blank">
-                <img
-                  src={require(`./photos/${press.path}`)}
-                  style={{ width: "100%" }}
-                  alt=""
-                />
-              </a>
+            <Col md={4} xs={6} style={{ padding: 24 }}>
+              <ReactTinyLink
+                cardSize="large"
+                showGraphic={true}
+                maxLine={2}
+                minLine={1}
+                url={press.link}
+              />
             </Col>
           );
         })}
@@ -25,11 +33,10 @@ function IYPress(props) {
 }
 
 IYPress.propTypes = {
+  /** An array of press piece metadata */
   press: PropTypes.arrayOf(
     PropTypes.shape({
-      /** The path to the press images featured on the press page */
-      path: PropTypes.string,
-      /** The social media link for that piece of press */
+      /** The social media link for a piece of press */
       link: PropTypes.string
     })
   )
