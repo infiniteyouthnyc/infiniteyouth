@@ -1,9 +1,9 @@
 [
-  { "id": "artists", "title": "Artists" },
-  { "id": "events", "title": "Events" },
-  { "id": "gallery", "title": "Gallery" },
-  { "id": "beats", "title": "Beats" },
-  { "id": "press", "title": "Press" },
-  { "id": "services", "title": "Services" },
-  { "id": "contact", "title": "Contact" }
+  { "id": "artists", "title": "Artists", "path": "" },
+  { "id": "press", "title": "Press", "path": "/press" },
+  { "id": "events", "title": "Events", "path": "/events" },
+  { "id": "beats", "title": "Beats", "path": "/beats" },
+  { "id": "gallery", "title": "Gallery", "path": "/gallery" },
+  { "id": "services", "title": "Services", "path": "/services" },
+  { "id": "contact", "title": "Contact", "path": "/contact" }
 ]

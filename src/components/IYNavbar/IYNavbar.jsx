@@ -90,9 +90,10 @@ function IYNavbar(props) {
               // TODO: Remove `/infiniteyouth` from paths before final deployment
               <NavLink
                 className="iyNavLink"
-                to={`/infiniteyouth/${section.id}`}
+                exact
+                to={`/infiniteyouth${section.path}`}
                 activeStyle={{
-                  color: "rgba(238, 144, 23, 1)",
+                  color: "#ee9017",
                   transition: ["all", "0.3s", "easeOut"]
                 }}
                 style={{
@@ -119,7 +120,8 @@ IYNavbar.propTypes = {
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string,
-      title: PropTypes.string
+      title: PropTypes.string,
+      path: PropTypes.string
     })
   ),
   /** If the app is a single-page app, this is true, which
