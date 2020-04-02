@@ -5,8 +5,16 @@ html body {
   font-family: "Audiowide";
 }
 
-a:link {
+a:hover {
+  color: #444;
+}
+
+.iyAnchor:link {
   color: #555;
+}
+
+.iyAnchor:hover {
+  color: #444;
 }
 
 @import "~bootstrap/scss/bootstrap.scss";

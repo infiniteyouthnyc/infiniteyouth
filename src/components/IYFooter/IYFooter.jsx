@@ -36,7 +36,11 @@ function IYFooter(props) {
               justifyItems: "center"
             }}
           >
-            <a href="mailto:mgmt@infiniteyouthmusic.com">
+            <a
+              className="iyAnchor"
+              style={{ textDecorationLine: "none" }}
+              href="mailto:mgmt@infiniteyouthmusic.com"
+            >
               mgmt@infiniteyouthmusic.com
             </a>
           </div>
