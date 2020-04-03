@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c334228cbc72ce00129b179f48331a9a",
+    "revision": "25138e875596af78da99a901beaa3700",
     "url": "/infiniteyouth/index.html"
   },
   {
-    "revision": "537d8ec434fc9243288d",
+    "revision": "cbe89b05bacb3d2b62cf",
     "url": "/infiniteyouth/static/css/main.cc69acb7.chunk.css"
   },
   {
-    "revision": "16e61f26328dbae7e0b2",
-    "url": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js"
+    "revision": "bad75bfd1e6e7d05d353",
+    "url": "/infiniteyouth/static/js/2.045816b0.chunk.js"
   },
   {
     "revision": "bd186748a279a7c3df1fe1fc35da9637",
-    "url": "/infiniteyouth/static/js/2.b46d1fb3.chunk.js.LICENSE.txt"
+    "url": "/infiniteyouth/static/js/2.045816b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "537d8ec434fc9243288d",
-    "url": "/infiniteyouth/static/js/main.cbcfc9e2.chunk.js"
+    "revision": "cbe89b05bacb3d2b62cf",
+    "url": "/infiniteyouth/static/js/main.aaf0585e.chunk.js"
   },
   {
     "revision": "5f9a1f650a501dd5c265",
