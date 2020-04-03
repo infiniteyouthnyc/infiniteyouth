@@ -23,21 +23,25 @@ export default function Routes() {
         exact
         render={props => <IYHome artists={artists} />}
       />
-      <Route path="/infiniteyouth/artists" exact component={IYArtists} />
+      {/* <Route path="/infiniteyouth/artists" exact component={IYArtists} /> */}
       <Route
         path="/infiniteyouth/events"
         exact
         render={props => <IYEvents events={events} />}
       />
-      <Route path="/infiniteyouth/gallery" exact component={IYGallery} />
+      {/* <Route path="/infiniteyouth/gallery" exact component={IYGallery} /> */}
       <Route path="/infiniteyouth/beats" exact component={IYBeats} />
       <Route
         path="/infiniteyouth/press"
         exact
         render={props => <IYPress press={press} />}
       />
-      <Route path="/infiniteyouth/services" exact component={IYServices} />
-      <Route path="/infiniteyouth/contact" exact component={IYContact} />
+      {/* <Route path="/infiniteyouth/services" exact component={IYServices} />
+      <Route path="/infiniteyouth/contact" exact component={IYContact} /> */}
+      <Route
+        path="/infiniteyouth/*"
+        render={props => <IYHome artists={artists} />}
+      />
     </Switch>
   );
 }
