@@ -17,7 +17,7 @@ function App() {
           selectedSection="home"
           sections={navbarItems}
           singlePage={false}
-          stickToTop={true}
+          stickToTop={false}
         />
         <Routes />
         <IYFooter />

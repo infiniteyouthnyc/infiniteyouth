@@ -64,7 +64,7 @@ function IYNavbar(props) {
       expand="md"
       fixed={fixed}
       style={{
-        backgroundColor: backgroundColor,
+        // backgroundColor: backgroundColor,
         fontFamily: "AUDIOWIDE",
         fontWeight: 400,
         letterSpacing: ".04em",
@@ -76,7 +76,7 @@ function IYNavbar(props) {
         <Link to="/infiniteyouth">
           <img
             src={require("./logo.png")}
-            height="30"
+            height="60"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
