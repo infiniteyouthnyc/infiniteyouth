@@ -4,20 +4,20 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaSoundcloud
+  FaSoundcloud,
 } from "react-icons/fa";
 import { useState } from "react";
 
-const iconStyle = { width: "100%", height: 60, padding: 12 };
+const iconStyle = { width: "100%", height: 45, padding: 0 };
 const defaultLinkStyle = {
   width: "100%",
   textDecorationLine: "none",
-  transition: ["all", "0.5s", "easeOut"]
+  transition: ["all", "0.5s", "easeOut"],
 };
 const notHoveredLinkStyle = {
   width: "100%",
   opacity: 0.5,
-  transition: ["all", "0.5s", "easeOut"]
+  transition: ["all", "0.5s", "easeOut"],
 };
 
 function IYFooterSocials(props) {

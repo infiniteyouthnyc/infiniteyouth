@@ -14,26 +14,26 @@ function IYFooter(props) {
           marginBottom: 24,
           display: "flex",
           alignItems: "center",
-          justifyItems: "center"
+          justifyItems: "center",
         }}
       >
         <Col
           style={{
             display: "flex",
             alignItems: "center",
-            justifyItems: "center"
+            // justifyItems: "center",
           }}
-          md={4}
+          md={3}
           xs={12}
         >
           <IYFooterSocials />
         </Col>
-        <Col md={4} xs={12}></Col>
-        <Col md={4} xs={12}>
+        <Col md={6} xs={12}></Col>
+        <Col md={3} xs={12}>
           <div
             style={{
               alignItems: "center",
-              justifyItems: "center"
+              justifyItems: "center",
             }}
           >
             <a
