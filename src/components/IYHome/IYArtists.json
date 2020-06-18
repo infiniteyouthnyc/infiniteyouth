@@ -1,5 +1,8 @@
 [
-  { "path": "barryHunter.png", "link": "" },
+  {
+    "path": "barryHunter.png",
+    "link": "https://www.instagram.com/shlumpburr/"
+  },
   { "path": "dee9.png", "link": "https://www.instagram.com/danielrector/" },
   { "path": "frankieaura.png", "link": "http://instagram.com/frankieaura" },
   {
@@ -8,6 +11,5 @@
   },
   { "path": "joeypsycho.png", "link": "https://levelmusic.lnk.to/u7oPNb" },
   { "path": "johnny+will.png", "link": "https://fanlink.to/cs4J" },
-  { "path": "prettiBoiLF.png", "link": "http://instagram.com/prettiboi_lf" },
   { "path": "puddah.png", "link": "https://linktr.ee/onewaypuddah" }
 ]
