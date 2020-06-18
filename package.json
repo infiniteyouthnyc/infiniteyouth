@@ -2,7 +2,7 @@
   "name": "infiniteyouth",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mattjmann.github.io/infiniteyouth",
+  "homepage": "http://infiniteyouthmusic.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
