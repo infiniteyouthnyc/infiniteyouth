@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.cc69acb7.chunk.css",
-    "main.js": "/static/js/main.72c98e21.chunk.js",
-    "main.js.map": "/static/js/main.72c98e21.chunk.js.map",
+    "main.js": "/static/js/main.bdfedc3e.chunk.js",
+    "main.js.map": "/static/js/main.bdfedc3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.30ba31c6.js",
     "runtime-main.js.map": "/static/js/runtime-main.30ba31c6.js.map",
-    "static/js/2.045816b0.chunk.js": "/static/js/2.045816b0.chunk.js",
-    "static/js/2.045816b0.chunk.js.map": "/static/js/2.045816b0.chunk.js.map",
+    "static/js/2.e27e81bf.chunk.js": "/static/js/2.e27e81bf.chunk.js",
+    "static/js/2.e27e81bf.chunk.js.map": "/static/js/2.e27e81bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3dc593dad00b3b13c9d54dcea4262836.js": "/precache-manifest.3dc593dad00b3b13c9d54dcea4262836.js",
+    "precache-manifest.4218ffe16bdb9a32c05bb5ac526b6cd3.js": "/precache-manifest.4218ffe16bdb9a32c05bb5ac526b6cd3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.cc69acb7.chunk.css.map": "/static/css/main.cc69acb7.chunk.css.map",
-    "static/js/2.045816b0.chunk.js.LICENSE.txt": "/static/js/2.045816b0.chunk.js.LICENSE.txt",
+    "static/js/2.e27e81bf.chunk.js.LICENSE.txt": "/static/js/2.e27e81bf.chunk.js.LICENSE.txt",
     "static/media/barryHunter.png": "/static/media/barryHunter.fc961db2.png",
     "static/media/dee9.png": "/static/media/dee9.335ed036.png",
     "static/media/event1.png": "/static/media/event1.f5dd8f84.png",
@@ -28,13 +28,14 @@
     "static/media/johnny+will.png": "/static/media/johnny+will.f392b043.png",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
     "static/media/logo.png": "/static/media/logo.9c13179d.png",
-    "static/media/prettiBoiLF.png": "/static/media/prettiBoiLF.faf2189f.png",
-    "static/media/puddah.png": "/static/media/puddah.445a71ad.png"
+    "static/media/puddah.png": "/static/media/puddah.445a71ad.png",
+    "static/media/sean.jpeg": "/static/media/sean.597f4ef2.jpeg",
+    "static/media/typhoon.jpeg": "/static/media/typhoon.bab39e56.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.30ba31c6.js",
-    "static/js/2.045816b0.chunk.js",
+    "static/js/2.e27e81bf.chunk.js",
     "static/css/main.cc69acb7.chunk.css",
-    "static/js/main.72c98e21.chunk.js"
+    "static/js/main.bdfedc3e.chunk.js"
   ]
 }
