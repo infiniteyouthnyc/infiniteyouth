@@ -20,8 +20,8 @@ function IYNavbar(props) {
     `rgba(250, 250, 250, 0.7)`
   );
 
-  const updateSelectedSection = scrollHeight => {
-    const ids = props.sections.map(section => section.id);
+  const updateSelectedSection = (scrollHeight) => {
+    const ids = props.sections.map((section) => section.id);
     var selectedSection = ids[0];
     for (const id of ids) {
       const sectionTop = document.getElementById(id).offsetTop;
@@ -34,7 +34,7 @@ function IYNavbar(props) {
     setActiveKey(selectedSection);
   };
 
-  const transitionBackground = scrollHeight => {
+  const transitionBackground = (scrollHeight) => {
     var opacity = 0.7;
     if (scrollHeight >= BEGIN_OPACITY_TRANSITION) {
       opacity =
@@ -69,11 +69,11 @@ function IYNavbar(props) {
         fontWeight: 400,
         letterSpacing: ".04em",
         fontSize: 20,
-        padding: "5px 30px"
+        padding: "5px 30px",
       }}
     >
       <Navbar.Brand href="#home">
-        <Link to="/infiniteyouth">
+        <Link to="">
           <img
             src={require("./logo.png")}
             height="60"
@@ -86,26 +86,25 @@ function IYNavbar(props) {
       <Navbar.Collapse className="justify-content-end">
         <Nav activeKey={`#${props.selectedSection}`}>
           {props.sections
-            .filter(section => section.include)
-            .map(section => {
+            .filter((section) => section.include)
+            .map((section) => {
               if (!section.external) {
                 return (
-                  // TODO: Remove `/infiniteyouth` from paths before final deployment.
                   // TODO: In IYNavbarItems make sure to create separate Artists page.
                   <NavLink
                     className="iyNavLink"
                     exact
-                    to={`/infiniteyouth${section.path}`}
+                    to={`${section.path}`}
                     target={section.external ? "_blank" : null}
                     activeStyle={{
                       color: "#ee9017",
-                      transition: ["all", "0.3s", "easeOut"]
+                      transition: ["all", "0.3s", "easeOut"],
                     }}
                     style={{
                       marginLeft: 12,
                       marginRight: 12,
                       textDecorationLine: "none",
-                      transition: ["all", "0.3s", "easeOut"]
+                      transition: ["all", "0.3s", "easeOut"],
                     }}
                   >
                     {section.title}
@@ -121,7 +120,7 @@ function IYNavbar(props) {
                       marginLeft: 12,
                       marginRight: 12,
                       textDecorationLine: "none",
-                      transition: ["all", "0.3s", "easeOut"]
+                      transition: ["all", "0.3s", "easeOut"],
                     }}
                   >
                     {section.title}
@@ -145,7 +144,7 @@ IYNavbar.propTypes = {
       title: PropTypes.string,
       path: PropTypes.string,
       external: PropTypes.bool,
-      include: PropTypes.bool
+      include: PropTypes.bool,
     })
   ),
   /** If the app is a single-page app, this is true, which
@@ -155,7 +154,7 @@ IYNavbar.propTypes = {
    */
   singlePage: PropTypes.bool,
   /** Whether the Navbar is sticky or not. */
-  stickToTop: PropTypes.bool
+  stickToTop: PropTypes.bool,
 };
 
 export default IYNavbar;
