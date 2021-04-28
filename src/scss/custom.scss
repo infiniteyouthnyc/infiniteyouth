@@ -25,5 +25,40 @@ html body {
   color: #444;
 }
 
+.artistGrid {
+  padding: 0px !important;
+
+  &.artistGridCenter {
+    margin-top: 50px;
+  }
+
+  .artistGridElement {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    text {
+      transition: all 400ms ease-out;
+
+      z-index: 1;
+      position: absolute;  
+      left: 50%;                        /* horizontal alignment */
+      top: 50%;                         /* vertical alignment */
+      transform: translate(-50%, -50%); /* precise centering; see link below */
+      opacity: 0;
+    }
+  }
+
+  .artistGridElement:hover a img {
+    opacity: 0.5;
+  }
+
+  .artistGridElement:hover a text {
+    opacity: 1;
+  }
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
