@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <IYNavbar
+        {/* <IYNavbar
           selectedSection="home"
           sections={navbarItems}
           singlePage={false}
           stickToTop={false}
-        />
+        /> */}
         <Routes />
         <IYFooter />
       </Router>

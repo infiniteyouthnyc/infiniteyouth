@@ -19,8 +19,9 @@ export default function Routes() {
   function underConstruction(props){
     return (
       <img 
-        src='./IYHome/photos/underConstruction.jpeg'
-        style
+        src={require('./IYHome/photos/underConstruction.jpeg')}
+        style={{width: "100%"}}
+      />
     );
   }
 
@@ -38,7 +39,7 @@ export default function Routes() {
         exact
         render={(props) => <IYPress press={press} />}
       /> */}
-      <Route path="/*" render={(props) => <IYHome artists={artists} />} />
+      <Route path="/*" render={(props) => underConstruction()} />
     </Switch>
   );
 }
