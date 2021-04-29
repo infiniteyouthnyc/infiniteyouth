@@ -15,9 +15,18 @@ import press from "./IYPress/IYPress.json";
 import events from "./IYEvents/IYEvents.json";
 
 export default function Routes() {
+
+  function underConstruction(props){
+    return (
+      <img 
+        src='./IYHome/photos/underConstruction.jpeg'
+        style
+    );
+  }
+
   return (
     <Switch style={{ paddingTop: 120 }}>
-      <Route path="/" exact render={(props) => <IYHome artists={artists} />} />
+      {/* <Route path="/" exact render={(props) => <IYHome artists={artists} />} />
       <Route
         path="/events"
         exact
@@ -28,7 +37,7 @@ export default function Routes() {
         path="/press"
         exact
         render={(props) => <IYPress press={press} />}
-      />
+      /> */}
       <Route path="/*" render={(props) => <IYHome artists={artists} />} />
     </Switch>
   );
