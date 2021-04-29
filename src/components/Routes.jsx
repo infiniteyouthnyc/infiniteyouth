@@ -12,12 +12,23 @@ import IYBeats from "./IYBeats.jsx";
 import IYPress from "./IYPress/IYPress.jsx";
 import IYServices from "./IYServices.jsx";
 import IYContact from "./IYContact.jsx";
+import IYError from "./IYError.jsx"
+
+import IYArtistPage from "./IYHome/IYArtistPage.jsx"
 
 import artists from "./IYHome/IYArtists.json";
 import press from "./IYPress/IYPress.json";
 import events from "./IYEvents/IYEvents.json";
 
 export default function Routes() {
+  function loadArtistPage(path) {
+    let artist = artists.filter(artist => artist.name.replace(/\s/g , "-") == path.match.params.artist)[0];
+
+    return (
+      <IYArtistPage artist={artist}/>
+    );
+  }
+
   return (
     <Switch style={{ paddingTop: 120 }}>
       <Route path="/" exact render={(props) => <IYArtistsGrid artists={artists} />} />
@@ -32,7 +43,16 @@ export default function Routes() {
         exact
         render={(props) => <IYPress press={press} />}
       />
-      <Route path="/*" render={(props) => <IYHome artists={artists} />} />
+      <Route
+        path="/artists/:artist" 
+        component={loadArtistPage}
+      />
+      <Route 
+        path="/artistPage" 
+        exact 
+        render={(props) => <IYArtistPage artists={artists}/>}
+      />
+      <Route path="/*" render={(props) => <IYError/>} />
     </Switch>
   );
 }

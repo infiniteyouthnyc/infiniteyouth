@@ -60,5 +60,19 @@ html body {
   }
 }
 
+.artistSubtitle {
+  font-size: 30px;
+}
+.artistName {
+  font-size: 50px;
+}
+.artistPlayer {
+  margin: 0 !important;
+  justify-content: center;
+}
+.artistGallery {
+  margin: 0 !important;
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");

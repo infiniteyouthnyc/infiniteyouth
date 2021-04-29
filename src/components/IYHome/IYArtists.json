@@ -1,9 +1,19 @@
 [
-  {"path": "puddah.png", "link": "https://linktr.ee/onewaypuddah" },
-  {"path": "puddah.png", "link": "https://linktr.ee/onewaypuddah" },
-  {"path": "barryHunter.png","link": "https://www.instagram.com/shlumpburr/"},
-  {"path": "puddah.png", "link": "https://linktr.ee/onewaypuddah" },
-  {"path": "barryHunter.png","link": "https://www.instagram.com/shlumpburr/"},
-  {"path": "barryHunter.png","link": "https://www.instagram.com/shlumpburr/"}
+  { "name":"Puddah", 
+    "path": "puddah.png", 
+    "link": "https://linktr.ee/onewaypuddah", 
+    "press": [
+      "https://www.thereachtv.net/post/puddah-shows-you-how-to-trap-on-oneway-ep",
+      "https://www.elevatormag.com/puddahs-new-ep-will-transcend-you/"
+      ],
+    "audio": "mixkit-trap-hamza-267.mp3"
+  },
+  {
+    "name":"Barry Hunter", 
+    "path": "barryHunter.png",
+    "link": "https://www.instagram.com/shlumpburr/",
+    "press": [],
+    "audio" : "mixkit-trap-hamza-267.mp3"
+  }
   
 ]

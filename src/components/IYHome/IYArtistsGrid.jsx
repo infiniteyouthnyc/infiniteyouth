@@ -37,7 +37,7 @@ function IYArtistsGrid(props){
 function artistGridElement(artist){
     return (
         <div class="artistGridElement">
-            <a href={artist.link}>
+            <a href={`./artists/${artist.name.replace(/\s/g , "-")}`}>
                 <img
                 src={require(`./photos/${artist.path}`)}
                 style={{ width: "100%" }}
